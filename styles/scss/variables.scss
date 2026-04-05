@@ -1,0 +1,18 @@
+/* Root variables */
+
+:root {
+  --main-font-family: "Inter", sans-serif;
+  --fantasy-font-family: "Press Start 2P", fantasy;
+  --heart-color: #ff0000;
+  --page-background: #fff;
+    --background-color: #d3d3d3;
+    --background-color-start: #e7e7e7;
+    --background-color-end: #1a1a1a;
+    --title-font-weight: 700;
+    --text-font-weight: 400;
+    --header-background: var(--page-background);
+    --text-color: #000;
+    --mix-blend-color: var(--page-background);
+    --stroke-color: var(--text-color);
+    --label-stroke-color: var(--page-background);
+}
