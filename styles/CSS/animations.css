@@ -1,36 +1,24 @@
 /* Animation */
 
-.theme-menu__button:disabled::before {
-  animation: arrow-animation 0.5s ease-in-out infinite alternate;
-}
-
-.like-icon.is-liked .heart {
-  animation: scale-animation 0.3s ease-in 0.1s 1 alternate;
-}
+ .like-icon.is-liked .heart{
+  animation: scale-animation 0.3s ease-in 0.1s;
+} 
 
 .like-icon.is-liked .sparks {
-  animation: sparks-animation 0.3s ease-in 0.3s 1 alternate;
+  animation: opacity-animation 0.3s ease-in 0.3s;
 }
 
-@keyframes arrow-animation {
-  from {
-    left: -20px;
-  }
-  to {
-    left: -16px;
-  }
-}
 
 @keyframes scale-animation {
   from {
     scale: 1;
   }
   to {
-    scale: 1.5;
+    scale: 1.25;
   }
 }
 
-@keyframes sparks-animation {
+@keyframes opacity-animation {
   from {
     opacity: 0;
   }
@@ -38,4 +26,3 @@
     opacity: 1;
   }
 }
-
