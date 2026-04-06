@@ -240,7 +240,7 @@
   font-family: var(--fantasy-font-family);
   text-align: center;
   margin: 100px 0 95px;
-  padding: 112px 0 123px;
+  padding: 130px 0;
   background: var(--header-background);
   border: 2px solid var(--stroke-color);
 }
@@ -253,16 +253,13 @@
 .header__title {
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   text-transform: uppercase;
+  margin-top: 20px;
 }
 
 @media (width <=375px) {
   .header {
-    padding: 108px 0 116px;
+    padding: 120px 0;
     margin: 100px 0;
-  }
-
-  .header__title {
-    margin-top: 4px;
   }
 }
 
